@@ -1,0 +1,122 @@
+[
+  {
+    "titulo": "The Witcher 3: Wild Hunt",
+    "capa": "https://cdn.cloudflare.steamstatic.com/steam/apps/292030/header.jpg?t=1675178392",
+    "preco": 4.99,
+    "descricao": "Um RPG de ação épico com um mundo aberto vasto e envolvente."
+  },
+  {
+    "titulo": "Grand Theft Auto V",
+    "capa": "https://cdn.cloudflare.steamstatic.com/steam/apps/271590/header.jpg?t=1678296348",
+    "preco": 2.99,
+    "descricao": "Um jogo de ação em mundo aberto, onde você pode assumir o papel de três protagonistas e explorar uma cidade cheia de possibilidades."
+  },
+  {
+    "titulo": "The Last of Us Part I",
+    "capa": "https://cdn.cloudflare.steamstatic.com/steam/apps/1888930/header.jpg?t=1686864554",
+    "preco": 5.99,
+    "descricao": "Uma aventura pós-apocalíptica de sobrevivência em um mundo infestado por zumbis e facções em conflito."
+  },
+  {
+    "titulo": "Red Dead Redemption 2",
+    "capa": "https://cdn.cloudflare.steamstatic.com/steam/apps/1174180/header.jpg?t=1671485009",
+    "preco": 1.99,
+    "descricao": "Um épico de ação no Velho Oeste, com uma história imersiva e um vasto mundo aberto para explorar."
+  },
+  {
+    "titulo": "Assassin's Creed Valhalla",
+    "capa": "https://cdn.cloudflare.steamstatic.com/steam/apps/2208920/header.jpg?t=1671135934",
+    "preco": 7.99,
+    "descricao": "Viaje para a era viking e assuma o papel de um feroz guerreiro em uma luta por poder e glória."
+  },
+  {
+    "titulo": "Dandara",
+    "capa": "https://cdn.cloudflare.steamstatic.com/steam/apps/612390/header.jpg?t=1674055293",
+    "preco": 9.99,
+    "descricao": "Um jogo de plataforma e ação com elementos de metroidvania, onde você controla a heroína Dandara em sua luta para libertar um mundo repleto de opressão e tirania."
+  },
+  {
+    "titulo": "Cyberpunk 2077",
+    "capa": "https://cdn.cloudflare.steamstatic.com/steam/apps/1091500/header.jpg?t=1687178759",
+    "preco": 3.99,
+    "descricao": "Um RPG de ação futurista, onde você explora uma cidade cyberpunk cheia de conspirações e tecnologia avançada."
+  },
+  {
+    "titulo": "God of War",
+    "capa": "https://cdn.cloudflare.steamstatic.com/steam/apps/1593500/header.jpg?t=1650554420",
+    "preco": 2.99,
+    "descricao": "Assuma o papel de Kratos, um poderoso guerreiro espartano, e enfrente deuses e criaturas mitológicas em uma busca de vingança."
+  },
+  {
+    "titulo": "Call of Duty: Warzone",
+    "capa": "https://cdn.cloudflare.steamstatic.com/steam/apps/1962663/header_alt_assets_0_brazilian.jpg?t=1687569624",
+    "preco": 4.99,
+    "descricao": "Um jogo de batalha real gratuito, onde você luta pela sobrevivência em um campo de batalha intenso."
+  },
+  {
+    "titulo": "Minecraft Dungeons",
+    "capa": "https://cdn.cloudflare.steamstatic.com/steam/apps/1672970/header.jpg?t=1666102880",
+    "preco": 2.99,
+    "descricao": "Um jogo de construção e exploração, onde você pode criar seu próprio mundo e sobreviver em um ambiente cheio de possibilidades."
+  },
+  {
+    "titulo": "Resident Evil Village",
+    "capa": "https://cdn.cloudflare.steamstatic.com/steam/apps/1196590/header.jpg?t=1687764412",
+    "preco": 6.99,
+    "descricao": "Um jogo de terror de sobrevivência, onde você enfrenta ameaças sobrenaturais em uma vila assombrada."
+  },
+  {
+    "titulo": "Battlefield 2042",
+    "capa": "https://cdn.cloudflare.steamstatic.com/steam/apps/1517290/header.jpg?t=1686216000",
+    "preco": 7.99,
+    "descricao": "Um jogo de tiro em primeira pessoa, ambientado em um futuro próximo de conflitos globais e batalhas intensas."
+  },
+  {
+    "titulo": "Horizon Zero Dawn",
+    "capa": "https://cdn.cloudflare.steamstatic.com/steam/apps/1151640/header.jpg?t=1667297464",
+    "preco": 3.99,
+    "descricao": "Um jogo de ação e aventura, onde você assume o papel de Aloy, uma caçadora habilidosa, em um mundo pós-apocalíptico dominado por máquinas."
+  },
+  {
+    "titulo": "Marvel's Spider-Man",
+    "capa": "https://cdn.cloudflare.steamstatic.com/steam/apps/1817070/header.jpg?t=1673999865",
+    "preco": 4.99,
+    "descricao": "Balance pelos arranha-céus de Nova York como o icônico herói Spider-Man e enfrente vilões perigosos em uma narrativa emocionante."
+  },
+  {
+    "titulo": "Persona 5",
+    "capa": "https://cdn.cloudflare.steamstatic.com/steam/apps/1687950/header.jpg?t=1679398700",
+    "preco": 2.99,
+    "descricao": "Um RPG estilizado, onde você vive a vida de um estudante do ensino médio durante o dia e combate ameaças sobrenaturais durante a noite."
+  },
+  {
+    "titulo": "BioShock Infinite",
+    "capa": "https://cdn.cloudflare.steamstatic.com/steam/apps/8870/header.jpg?t=1602794480",
+    "preco": 2.99,
+    "descricao": "Uma experiência imersiva de tiro em primeira pessoa, ambientada em uma cidade flutuante cheia de mistérios e reviravoltas."
+  },
+  {
+    "titulo": "Final Fantasy VII Remake",
+    "capa": "https://cdn.cloudflare.steamstatic.com/steam/apps/1462040/header.jpg?t=1663767129",
+    "preco": 6.99,
+    "descricao": "Um remake do clássico RPG, onde você acompanha Cloud Strife e seus aliados em uma jornada para salvar o mundo da corporação maligna Shinra."
+  },
+  {
+    "titulo": "Dark Souls III",
+    "capa": "https://cdn.cloudflare.steamstatic.com/steam/apps/374320/header.jpg?t=1682651227",
+    "preco": 5.99,
+    "descricao": "Um desafiador RPG de ação, onde você enfrenta inimigos poderosos e explora um mundo sombrio e perigoso."
+  },
+  {
+    "titulo": "The Elder Scrolls V: Skyrim",
+    "capa": "https://cdn.cloudflare.steamstatic.com/steam/apps/72850/header.jpg?t=1647357402",
+    "preco": 4.99,
+    "descricao": "Um épico RPG de fantasia, onde você explora um vasto mundo aberto, enfrenta dragões e molda seu próprio destino."
+  },
+  {
+    "titulo": "Hades",
+    "capa": "https://cdn.cloudflare.steamstatic.com/steam/apps/1145360/header.jpg?t=1680293801",
+    "preco": 4.99,
+    "descricao": "Um jogo de ação e roguelike, onde você assume o papel do filho do deus dos mortos e luta para escapar do submundo grego."
+  }
+]
