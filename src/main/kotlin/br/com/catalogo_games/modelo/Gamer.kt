@@ -17,8 +17,11 @@ data class Gamer(var nome: String, var email: String){
         get
         private set
 
-    val jogosBuscados = mutableListOf<Jogo?>()
-    var listRentGames = mutableListOf<Rent>()
+    public val jogosBuscados = mutableListOf<Jogo?>()
+    public val listRentGames = mutableListOf<Rent>()
+    public var plano: Plano = PlanoAvulso("BRONZE")
+
+    public var totalAPagar: Double = 0.0
 
     constructor(nome:String, email:String, dataNascimento: String, usuario: String):
             this(nome,email){
@@ -35,6 +38,10 @@ data class Gamer(var nome: String, var email: String){
     }
 
     override fun toString(): String {
+
+        listRentGames.forEach{
+            totalAPagar += it.valorALuguel
+        }
         return """
             Gamer(
                 -nome='$nome', 
@@ -43,6 +50,7 @@ data class Gamer(var nome: String, var email: String){
                 - usuario=$usuario, 
                 - idInterno=$idInterno)",
                 - Alugados = $listRentGames
+                - Total A Pagar = $totalAPagar
         """.trimIndent()
     }
 

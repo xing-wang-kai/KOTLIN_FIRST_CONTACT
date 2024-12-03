@@ -10,7 +10,7 @@ class Rent(
 
 ) {
 
-    val valorALuguel: Double = (jogo.preco?:0.0) * periodo.emDias
+    val valorALuguel:Double = this.gamer.plano.obterValor(this)
 
     override fun toString(): String {
         return """
