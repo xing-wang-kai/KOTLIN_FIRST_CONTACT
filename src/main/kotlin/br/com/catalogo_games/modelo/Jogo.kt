@@ -1,16 +1,31 @@
 package br.com.catalogo_games.modelo
 
-class Jogo(var titulo: String, var capa: String) {
+import com.google.gson.annotations.Expose
+
+class Jogo(
+    @Expose
+    var titulo: String,
+    @Expose
+    var capa: String
+): Recomendavel {
 
     var descricao: String? = null
     var preco: Double?= null
+    var listOfNotas = mutableListOf<Int>()
+
+    override val media: Double
+        get() = listOfNotas.average()
 
     override fun toString(): String {
         return """
-            JOGO - Titulo:      ${this.titulo}
+            
+            JOGO 
+                 - Titulo:      ${this.titulo}
                  - Capa:        ${this.capa}
                  - PRECO:       ${this.preco}
                  - DESCRIPTION: ${this.descricao}
+                 - NEDIA        ${this.media}
+                 
         """.trimIndent()
 
     }
@@ -24,5 +39,9 @@ class Jogo(var titulo: String, var capa: String) {
 
     fun createGame(){
 
+    }
+
+    override fun recomendar(nota: Int) {
+        listOfNotas.add(nota)
     }
 }

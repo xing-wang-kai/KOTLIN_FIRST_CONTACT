@@ -4,7 +4,7 @@ import java.time.LocalDate
 import java.util.*
 import kotlin.random.Random
 
-data class Gamer(var nome: String, var email: String){
+data class Gamer(var nome: String, var email: String): Recomendavel{
     public var dataNascimento: String? = null
     public var usuario: String? = null
         set(value) {
@@ -19,9 +19,14 @@ data class Gamer(var nome: String, var email: String){
 
     public val jogosBuscados = mutableListOf<Jogo?>()
     public val listRentGames = mutableListOf<Rent>()
+    private val listOfNotas = mutableListOf<Int>()
+    public val listOfRecomededGames = mutableListOf<Jogo>()
+
     public var plano: Plano = PlanoAvulso("BRONZE")
 
     public var totalAPagar: Double = 0.0
+    override val media: Double
+        get() = listOfNotas.average()
 
     constructor(nome:String, email:String, dataNascimento: String, usuario: String):
             this(nome,email){
@@ -37,6 +42,14 @@ data class Gamer(var nome: String, var email: String){
         this.email = validarEmail()
     }
 
+    override fun recomendar(nota: Int) {
+        listOfNotas.add(nota)
+    }
+
+    fun recomendarJogo(jogo: Jogo, nota: Int){
+        jogo.recomendar(nota)
+        listOfRecomededGames.add(jogo)
+    }
     override fun toString(): String {
 
         listRentGames.forEach{
@@ -44,13 +57,15 @@ data class Gamer(var nome: String, var email: String){
         }
         return """
             Gamer(
-                -nome='$nome', 
-                -email='$email', 
-                -dataNascimento=$dataNascimento, 
-                - usuario=$usuario, 
-                - idInterno=$idInterno)",
-                - Alugados = $listRentGames
-                - Total A Pagar = $totalAPagar
+                -nome =                '${this.nome}'
+                -email =               '${this.email}'
+                -dataNascimento =       ${this.dataNascimento}'
+                - usuario =             ${this.usuario}
+                - idInterno=            ${this.idInterno})
+                - Alugados =            ${this.listRentGames}
+                - Total A Pagar =       ${this.totalAPagar}
+                - Reputação =           ${this.media}
+                - JOGOS RECOMENDADOS:   ${this.listOfRecomededGames}
         """.trimIndent()
     }
 

@@ -10,10 +10,16 @@ class PlanoAssinatura(
 
         val totalGamePerMonth = rent.gamer.listRentGames.size
 
-        return if(totalGamePerMonth <= jogosIncluidos){
+        return if(totalGamePerMonth < jogosIncluidos){
             0.0
         } else {
-            super.obterValor(rent)
+            var valorOriginal = super.obterValor(rent)
+
+            if(rent.gamer.media > 8){
+                println("DISCONTO *--* ")
+                valorOriginal -= valorOriginal * 0.1
+            }
+            valorOriginal
         }
     }
 
