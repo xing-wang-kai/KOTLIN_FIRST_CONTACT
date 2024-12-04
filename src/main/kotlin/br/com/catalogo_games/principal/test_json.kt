@@ -34,7 +34,7 @@ fun main(){
     gameAna.recomendar(7)
     gameAna.recomendar(8)
 
-    gameAna.plano = PlanoAssinatura("PRATA", 9.90, 3)
+    gameAna.plano = PlanoAssinatura("PRATA", 9.90, 3, 0.0)
     //gameAna.plano = PlanoAvulso("BRONZE")
 
     var jogo1 = listOfjogo.get(1)
